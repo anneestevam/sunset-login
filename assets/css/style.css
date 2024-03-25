@@ -22,7 +22,7 @@ body {
 .container-login {
     width: 100vw;
     height: 100vh;
-    background-color: rgba(144, 103, 198, 0.6);
+    background-color: rgba(14, 147, 154, 0.4);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,7 +32,7 @@ body {
     width: 600px;
     height: 550px;
     margin: auto;
-    background-color: rgba(36, 32, 56, 0.7);
+    background-color: rgba(3, 22, 28, 0.7);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,7 +52,6 @@ body {
 
 .logo h1 {
     font-size: 36px;
-    color: #fff;
 }
 
 .formulario {
@@ -86,7 +85,7 @@ body {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #242038;
+    background-color: #0e939a;
     padding: 10px;
     font-size: 16px;
     font-weight: 600;
@@ -94,8 +93,8 @@ body {
 }
 
 .formulario button:hover {
-    background-color: #cac4ce;
-    color: #242038;
+    background-color: #03161c;
+    
 }
 
 .esqueci-senha {
@@ -108,5 +107,22 @@ body {
 }
 
 .esqueci-senha a:hover {
-    color: #cac4ce;
+    color: #6B9EBB;
+}
+
+@media(max-width: 1100px) {
+    .area-login {
+        width: 80%;
+        height: auto;
+    }
+
+    .esqueci-senha {
+        padding: 20px;
+    }
+}
+
+@media(max-width: 768px) {
+    .formulario button {
+        width: 100%;
+    }
 }
