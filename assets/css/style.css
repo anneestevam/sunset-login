@@ -5,15 +5,108 @@
 * { 
     margin: 0; 
     padding: 0;
+    box-sizing: border-box;
     font-family: "Raleway", sans-serif;
+    color: #fff;
 }
 
 body {
     width: 100vw;
     height: 100vh;
-    background-color: rgba(144, 103, 198, 1);
     background-image: url('../images/fundo.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+
+.container-login {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(144, 103, 198, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.area-login {
+    width: 600px;
+    height: 550px;
+    margin: auto;
+    background-color: rgba(36, 32, 56, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    padding: 10px;
+}
+
+.logo h1 {
+    font-size: 36px;
+    color: #fff;
+}
+
+.formulario {
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario h2 {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.formulario label {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.formulario input {
+    height: 30px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.formulario button {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #242038;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #cac4ce;
+    color: #242038;
+}
+
+.esqueci-senha {
+    padding-top: 40px;
+    font-size: 14px;
+}
+
+.esqueci-senha a {
+    text-decoration: none;
+}
+
+.esqueci-senha a:hover {
+    color: #cac4ce;
 }
